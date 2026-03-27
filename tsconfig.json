@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["es2020", "DOM"],
+    "types": ["@types/frida-gum"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "sourceMap": true
+  },
+  "files": ["src/index.ts"]
+}
